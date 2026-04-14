@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
+  <title>Privacy Policy | BMS</title>
+  <meta name="description" content="Privacy Policy for BMS desktop application." />
+  <style>
+    :root{
+      --bg:#0b1220;
+      --bg2:#101a30;
+      --card:#111b31;
+      --card2:#15213c;
+      --text:#eaf0ff;
+      --muted:#b7c2df;
+      --accent:#6ea8fe;
+      --accent2:#8a7dff;
+      --line:rgba(255,255,255,.10);
+      --shadow:0 18px 50px rgba(0,0,0,.30);
+      --radius:24px;
+      --radius2:18px;
+      --max:980px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0}
+    body{
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      background:
+        radial-gradient(1200px 700px at 20% 0%, rgba(110,168,254,.16), transparent 55%),
+        radial-gradient(1000px 600px at 100% 10%, rgba(138,125,255,.14), transparent 50%),
+        linear-gradient(180deg, var(--bg), #08101d 100%);
+      color:var(--text);
+      line-height:1.65;
+      min-height:100vh;
+    }
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:var(--max);margin:0 auto;padding:32px 18px 56px}
+    .hero{
+      background: linear-gradient(145deg, rgba(17,27,49,.92), rgba(21,33,60,.84));
+      border:1px solid var(--line);
+      border-radius:calc(var(--radius) + 4px);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+    .hero-top{
+      display:flex;gap:18px;align-items:center;
+      padding:28px;
+      border-bottom:1px solid var(--line);
+      background:linear-gradient(180deg, rgba(255,255,255,.05), transparent);
+    }
+    .logo{
+      width:72px;height:72px;flex:0 0 72px;
+      border-radius:18px;
+      object-fit:contain;
+      background:rgba(255,255,255,.04);
+      border:1px solid var(--line);
+      padding:10px;
+    }
+    .eyebrow{
+      display:inline-block;
+      padding:6px 12px;
+      border-radius:999px;
+      background:rgba(110,168,254,.12);
+      color:#dbe8ff;
+      font-size:.88rem;
+      letter-spacing:.02em;
+      margin-bottom:10px;
+      border:1px solid rgba(110,168,254,.18);
+    }
+    h1{margin:0;font-size:clamp(2rem, 4vw, 3rem);line-height:1.15}
+    .subtitle{margin:.55rem 0 0;color:var(--muted);max-width:72ch}
+    .meta{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:12px;
+      padding:18px 28px 0;
+    }
+    .meta div{
+      background:rgba(255,255,255,.04);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:14px 16px;
+      color:var(--muted);
+      font-size:.95rem;
+    }
+    .meta strong{display:block;color:var(--text);margin-top:4px;font-size:1rem}
+    .content{padding:18px 28px 28px}
+    .toc{
+      display:flex;flex-wrap:wrap;gap:10px;
+      margin-top:18px
+    }
+    .toc a{
+      display:inline-flex;align-items:center;gap:8px;
+      padding:9px 13px;
+      border-radius:999px;
+      background:rgba(255,255,255,.04);
+      border:1px solid var(--line);
+      color:var(--text);
+      text-decoration:none;
+      font-size:.94rem;
+    }
+    .toc a:hover{background:rgba(255,255,255,.07)}
+    .section{
+      margin-top:18px;
+      padding:22px 22px 18px;
+      background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border:1px solid var(--line);
+      border-radius:var(--radius2);
+    }
+    .section h2{
+      margin:0 0 10px;
+      font-size:1.25rem;
+      letter-spacing:.01em;
+    }
+    .section p{margin:0 0 12px;color:#dce5ff}
+    .section ul{
+      margin:10px 0 0 20px;
+      padding:0;
+      color:#dce5ff;
+    }
+    .section li{margin:8px 0}
+    .notice{
+      margin-top:18px;
+      padding:16px 18px;
+      border-left:4px solid var(--accent);
+      background:rgba(110,168,254,.09);
+      border-radius:16px;
+      color:#e7efff;
+    }
+    .footer{
+      margin-top:22px;
+      padding:18px 4px 0;
+      color:var(--muted);
+      font-size:.95rem;
+      text-align:center;
+    }
+    @media (max-width:720px){
+      .hero-top{padding:20px;align-items:flex-start}
+      .meta{grid-template-columns:1fr;padding:0 20px}
+      .content{padding:18px 20px 20px}
+      .section{padding:18px}
+      .logo{width:60px;height:60px;flex-basis:60px}
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <article class="hero">
+      <header class="hero-top">
+        <img class="logo" src="assets/images/app_logo.png" alt="BMS app logo" />
+        <div>
+          <span class="eyebrow">Privacy Policy</span>
+          <h1>BMS Privacy Policy</h1>
+          <p class="subtitle">
+            This Privacy Policy explains how BMS collects, uses, stores, protects, and handles personal information when users access or use the application.
+          </p>
+        </div>
+      </header>
+
+      <section class="meta" aria-label="Document summary">
+        <div>Effective date<strong>2026-04-14</strong></div>
+        <div>Application<strong>BMS Desktop App</strong></div>
+        <div>Contact<strong>Through the About page phone number</strong></div>
+      </section>
+
+      <div class="content">
+        <nav class="toc" aria-label="Table of contents">
+          <a href="#info">1. Information We Collect</a>
+          <a href="#use">2. How We Use Information</a>
+          <a href="#storage">3. Storage of Information</a>
+          <a href="#share">4. Sharing of Information</a>
+          <a href="#protect">5. Data Protection</a>
+          <a href="#rights">6. User Rights</a>
+          <a href="#retain">7. Data Retention</a>
+          <a href="#contact">8. Contact Information</a>
+          <a href="#changes">9. Changes to This Policy</a>
+        </nav>
+
+        <section class="section" id="info">
+          <h2>1. Information We Collect</h2>
+          <p>BMS may collect the following information:</p>
+          <ul>
+            <li>Full names</li>
+            <li>Usernames</li>
+            <li>Email addresses</li>
+            <li>Phone numbers</li>
+            <li>Payment-related information, including phone numbers used for payments</li>
+            <li>Device and usage information</li>
+            <li>Other information entered by users while using the application</li>
+          </ul>
+        </section>
+
+        <section class="section" id="use">
+          <h2>2. How We Use Information</h2>
+          <p>We use the information we collect to:</p>
+          <ul>
+            <li>Manage user accounts and access</li>
+            <li>Process and record payments</li>
+            <li>Identify and communicate with users</li>
+            <li>Support administration and system management</li>
+            <li>Improve application performance and usability</li>
+            <li>Maintain records required for normal business operations</li>
+          </ul>
+        </section>
+
+        <section class="section" id="storage">
+          <h2>3. Storage of Information</h2>
+          <p>
+            The information collected by BMS is stored in a secure SQL database and protected using security measures intended to prevent unauthorized access, loss, misuse, or alteration.
+          </p>
+        </section>
+
+        <section class="section" id="share">
+          <h2>4. Sharing of Information</h2>
+          <p>
+            We do not sell, rent, or share user information with third parties except where required by law or where necessary to operate the application securely.
+          </p>
+        </section>
+
+        <section class="section" id="protect">
+          <h2>5. Data Protection</h2>
+          <p>
+            We take reasonable technical and organizational measures to protect user data, including secure storage and encryption where applicable. However, no system can guarantee absolute security.
+          </p>
+        </section>
+
+        <section class="section" id="rights">
+          <h2>6. User Rights</h2>
+          <p>Users may request:</p>
+          <ul>
+            <li>Access to their data</li>
+            <li>Correction of incorrect data</li>
+            <li>Deletion of their data</li>
+          </ul>
+          <p>
+            Users may also delete their data where supported by the system or by contacting the administrator.
+          </p>
+        </section>
+
+        <section class="section" id="retain">
+          <h2>7. Data Retention</h2>
+          <p>
+            We retain personal information only for as long as it is needed for the purposes described in this policy, unless a longer retention period is required by law or for legitimate business reasons.
+          </p>
+        </section>
+
+        <section class="section" id="contact">
+          <h2>8. Contact Information</h2>
+          <p>
+            If you have questions, concerns, or requests regarding this Privacy Policy or your data, you may contact the administrator using the phone number provided in the About page of the application.
+          </p>
+        </section>
+
+        <section class="section" id="changes">
+          <h2>9. Changes to This Policy</h2>
+          <p>
+            We may update this Privacy Policy from time to time. Any changes will take effect when the updated version is published in the application or on the official policy page.
+          </p>
+        </section>
+
+        <div class="notice">
+          <strong>Note:</strong> This page is designed for your GitHub Pages site. Replace or expand any section if your data practices change later.
+        </div>
+
+        <p class="footer"><a href="index.html">Back to policy center</a> · © 2026 BMS. All rights reserved.</p>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
